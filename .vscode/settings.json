@@ -1,0 +1,15 @@
+{
+    "haskell.manageHLS": "PATH",
+    "haskell.ghcupExecutablePath": "/home/vscode/.local/bin/ghcup",
+    "haskell.plugin.semanticTokens.globalOn": true,
+    "haskell.formattingProvider": "fourmolu",
+    "[cabal]": {
+        "editor.inlayHints.enabled": "off",
+        "editor.codeLens": false,
+        "editor.folding": false,
+        "editor.semanticHighlighting.enabled": false
+    },
+    "editor.fontFamily": "Hasklig, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "git.allowForcePush": true
+}
