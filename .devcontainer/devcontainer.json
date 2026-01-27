@@ -13,6 +13,15 @@
 				"haskell.haskell"
 			]
 		}
+	},
+	"remoteEnv": {
+		"ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}"
+	},
+	"secrets": {
+    	"ANTHROPIC_API_KEY": {
+    		"description": "Claude Anthropic API Key (optional for Claude Code)",
+    		"documentationUrl": "https://console.anthropic.com/keys"
+    	}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
